@@ -41,7 +41,6 @@ VALUES (
   'Demo User One',
   'user'
 );
-
 -- USER 2 (password: User@123)
 INSERT INTO users (id, tenant_id, email, password_hash, full_name, role)
 VALUES (
@@ -62,7 +61,10 @@ VALUES
   'Project Alpha',
   'First demo project',
   '33333333-3333-3333-3333-333333333333'
-),
+);
+
+INSERT INTO projects (id, tenant_id, name, description, created_by)
+VALUES
 (
   '77777777-7777-7777-7777-777777777777',
   '22222222-2222-2222-2222-222222222222',
@@ -70,6 +72,7 @@ VALUES
   'Second demo project',
   '33333333-3333-3333-3333-333333333333'
 );
+
 
 -- TASKS (5 tasks across 2 projects)
 INSERT INTO tasks (id, project_id, tenant_id, title, status, priority)
