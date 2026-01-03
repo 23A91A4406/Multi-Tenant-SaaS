@@ -1,0 +1,27 @@
+{
+  "name": "multi-tenant-saas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/23A91A4406/Multi-Tenant-SaaS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/23A91A4406/Multi-Tenant-SaaS/issues"
+  },
+  "homepage": "https://github.com/23A91A4406/Multi-Tenant-SaaS#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "uuid": "^8.3.2"
+  },
+  "description": ""
+}
